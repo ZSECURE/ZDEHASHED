@@ -1,13 +1,19 @@
 #!/bin/bash
 
-#Usage
-if [ $# -eq 0 ]; then
+# Usage function
+function usage {
     echo "Usage: ./zdehashed-parser.sh <command> <save_location>"
     echo "Commands: emails, passwords, combo"
     echo "         emails: this extracts all the email addresses"
     echo "         passwords: this extracts all the passwords"
     echo "         combo: this extracts all the email addresses and passwords"
     exit 1
+}
+
+# Exit if not present
+if [ -z "$cmd_function" ] || [ -z "$Filename" ]
+then
+    usage
 fi
 
 #Setting Variables
