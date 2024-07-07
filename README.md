@@ -12,8 +12,9 @@ JQ needs to be installed
 
 - Current Version - 1.0
 - Created: 28 Dec 2022
-- Updated: N/A 
+- Updated: 07 Jul 2024
 - v1.0 - Creation of script
+- v2.0 - Update to bash scripts
 
 ## Authors
 
